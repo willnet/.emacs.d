@@ -5,10 +5,7 @@
 ;; Rinari
 (require 'rinari)
 (global-rinari-mode)
-
-;; (require 'rhtml-mode)
-;; (add-hook 'rhtml-mode-hook
-;;          (lambda () (rinari-launch)))
+(setq rinari-exclude-major-modes '(magit-status-mode magit-log-edit-mode))
 
 (setq rinari-tags-file-name "TAGS")
 
