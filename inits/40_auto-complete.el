@@ -8,8 +8,8 @@
 ;;(ac-set-trigger-key "\M-i") ; コンテキストに応じて補完
 ;;(global-set-key "\M-/" 'ac-start)
 
-;; (setq ac-use-menu-map t)
-;; (define-key ac-menu-map "\C-n" 'ac-next)
-;; (define-key ac-menu-map "\C-p" 'ac-previous)
+(setq ac-use-menu-map t)
+(define-key ac-menu-map "\C-n" 'ac-next)
+(define-key ac-menu-map "\C-p" 'ac-previous)
 
 (require 'auto-complete-etags)
