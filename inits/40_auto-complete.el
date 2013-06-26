@@ -1,6 +1,10 @@
 (require 'auto-complete)
 (require 'auto-complete-config)
-(global-auto-complete-mode t)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(ac-config-default)
+;; (global-auto-complete-mode t)
+
+
 (setq ac-dwim t)
 
 (setq ac-auto-start nil) ; 自動的に開始しない
