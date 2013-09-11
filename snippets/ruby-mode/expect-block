@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: expect-block
+# key: ex
+# --
+expect { $0 }.to
