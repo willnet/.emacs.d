@@ -40,3 +40,6 @@
 
 ;; kill-sentence のキーバインドを削除
 (global-unset-key (kbd "M-k"))
+
+;; transpose-words のキーバインドを削除
+(global-unset-key (kbd "M-t"))
