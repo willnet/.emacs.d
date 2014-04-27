@@ -36,6 +36,9 @@
 ;; 桁番号を表示
 (column-number-mode t)
 
+;; ダイアログボックスを非表示に
+(setq use-dialog-box nil)
+
 ;;
 ;; font
 ;;
