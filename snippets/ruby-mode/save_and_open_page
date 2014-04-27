@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: save_and_open_page
-# key: sa
-# binding: direct-keybinding
+# key: saop
 # --
 save_and_open_page

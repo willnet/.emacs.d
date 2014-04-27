@@ -17,6 +17,7 @@
                        ("ac" "accepts_nested_attributes_for :${association}\n" "accepts_nested_attributes_for" nil nil nil nil nil nil)
                        ("abd" "ActionMailer::Base.deliveries" "ActionMailer::Base.deliveries" nil nil nil nil nil nil)
                        ("ac" "add_column :${table_name}, :${column_name}, :${type}" "add_column :blogs, :title, :string" nil nil nil nil nil nil)
+                       ("aa" "after_action :${method}" "after_action" nil nil nil nil nil nil)
                        ("af" "after_filter :${method}\n" "after_filter : ..." nil nil nil nil nil nil)
                        ("all" "all? { |${e}| $0 }" "all? { |...| ... }" nil
                         ("collections")
@@ -40,10 +41,11 @@
                        ("aw" "attr_writer :" "attr_writer ..." nil
                         ("definitions")
                         nil nil nil nil)
-                       ("ba" "background do\n$0\nend\n" "backdround do ... end" nil nil nil nil nil nil)
+                       ("back" "background do\n$0\nend\n" "background do ... end" nil nil nil nil nil nil)
                        ("be" "begin\nrescue\n  $0\nend\n" "begin ... rescue ... end" nil nil nil nil nil nil)
                        ("be" "before do\n  $0\nend\n" "before do ... end" nil nil nil nil nil nil)
                        ("be" "before { $0 }" "before { ... }" nil nil nil nil nil nil)
+                       ("ba" "before_action :${method}\n" "before_action" nil nil nil nil nil nil)
                        ("bf" "before_filter :${method}\n" "before_filter : ... " nil nil nil nil nil nil)
                        ("bm" "Benchmark.bmbm(${1:10}) do |x|\n  $0\nend" "Benchmark.bmbm(...) do ... end" nil
                         ("general")
@@ -96,6 +98,8 @@
                        ("eawi" "each_with_index { |${e}, ${i}| $0 }" "each_with_index { |e, i| ... }" nil
                         ("collections")
                         nil nil nil nil)
+                       ("e" "expect(${object}).to $0" "expect" nil nil nil nil nil nil)
+                       ("ex" "expect { $0 }.to" "expect-block" nil nil nil nil nil nil)
                        ("fe" "feature '${string}' do\n  $0\nend\n" "feature" nil nil nil nil nil nil)
                        ("fl" "flash[:${notice}] = \"${Text here...}\"\n" "flash[: ... ] = \" ... \"" nil nil nil nil nil nil)
                        ("fln" "flash.now[:${notice}] = \"${Text here...}\"\n" "flash.now[: ... ] = \" ... \"" nil nil nil nil nil nil)
@@ -114,8 +118,8 @@
                         ("collections")
                         nil nil nil nil)
                        ("it" "it '${str}' do\n  $0\nend" "it do ... end" nil nil nil nil nil nil)
-                       ("it" "it { $0 }\n" "it {}" nil nil nil nil nil nil)
-                       ("it" "it_should_behave_like \"${shared}\"\n" "it_should_behave_like" nil nil nil nil nil nil)
+                       ("it" "it { $0 }" "it {}" nil nil nil nil nil nil)
+                       ("it" "it_should_behave_like \"${shared}\"" "it_should_behave_like" nil nil nil nil nil nil)
                        ("ld" "logger.debug ${log object}\n$0\n" "logger.debug " nil nil nil nil nil nil)
                        ("le" "logger.error ${log object}\n$0\n" "logger.error" nil nil nil nil nil nil)
                        ("li" "logger.info ${log object}\n$0\n" "logger.info" nil nil nil nil nil nil)
@@ -148,8 +152,9 @@
                        ("rw" "attr_accessor :" "attr_accessor ..." nil
                         ("definitions")
                         nil nil nil nil)
-                       ("save" "save_and_open_page\n" "save_and_open_page" nil nil nil nil nil nil)
+                       ("saop" "save_and_open_page" "save_and_open_page" nil nil nil nil nil nil)
                        ("sc" "scenario '${string}' do\n  $0\nend\n" "scenario" nil nil nil nil nil nil)
+                       ("ss" "page.save_screenshot('screenshot.png')" "screenshot" nil nil nil nil nil nil)
                        ("select" "select { |${1:element}| $0 }" "select { |...| ... }" nil
                         ("collections")
                         nil nil nil nil)
@@ -190,4 +195,4 @@
                         nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Wed Mar 13 21:24:39 2013
+;;; Do not edit! File generated at Sun Apr 27 23:40:12 2014

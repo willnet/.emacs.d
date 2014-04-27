@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: backdround do ... end
-# key: ba
+# name: background do ... end
+# key: back
 # --
 background do
 $0
