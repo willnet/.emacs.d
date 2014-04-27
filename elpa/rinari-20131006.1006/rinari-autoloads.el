@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (global-rinari-mode rinari-minor-mode rinari-launch)
-;;;;;;  "rinari" "rinari.el" (20810 63722))
+;;;;;;  "rinari" "rinari.el" (21103 54741 0 0))
 ;;; Generated autoloads from rinari.el
 
 (autoload 'rinari-launch "rinari" "\
@@ -41,7 +41,7 @@ See `rinari-minor-mode' for more information on Rinari minor mode.
 
 ;;;***
 
-;;;### (autoloads nil nil ("rinari-pkg.el") (20810 63722 938277))
+;;;### (autoloads nil nil ("rinari-pkg.el") (21103 54741 596014 0))
 
 ;;;***
 
