@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: after_action
+# key: aa
+# --
+after_action :${method}
