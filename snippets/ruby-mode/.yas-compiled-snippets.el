@@ -128,7 +128,7 @@
                        ("mm" "def method_missing(method, *args)\n  $0\nend" "def method_missing ... end" nil
                         ("definitions")
                         nil nil nil nil)
-                       ("par" "params[:${id}]$0\n" "params[: ... ]" nil nil nil nil nil nil)
+                       ("par" "params[:${id}]$0" "params[: ... ]" nil nil nil nil nil nil)
                        ("ra" "render :action => :${action}\n" "render :action => \" ... \"" nil nil nil nil nil nil)
                        ("rb" "#!/usr/bin/env ruby\n" "#!/usr/bin/env ruby" nil
                         ("general")
@@ -195,4 +195,4 @@
                         nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Sun Apr 27 23:40:12 2014
+;;; Do not edit! File generated at Wed May  7 15:59:57 2014

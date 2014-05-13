@@ -5,4 +5,4 @@
                      '(("begin" "\n\\begin{${1:environment}}\n$0\n\\end{$1}" "\\begin{environment} ... \\end{environment}" nil nil nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Sun Apr 27 23:40:13 2014
+;;; Do not edit! File generated at Wed May  7 15:59:57 2014

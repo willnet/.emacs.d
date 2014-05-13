@@ -7,4 +7,4 @@
                        ("vars" "# name: $1${2:\n# key: ${3:trigger-key}}${4:\n# keybinding: ${5:keybinding}}${6:\n# expand-env: (${7:})}\n# contributor: $6\n# --\n$0" "Snippet header" nil nil nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Sun Apr 27 23:40:13 2014
+;;; Do not edit! File generated at Wed May  7 15:59:57 2014
