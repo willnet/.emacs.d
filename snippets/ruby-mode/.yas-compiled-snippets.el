@@ -133,7 +133,7 @@
                        ("rb" "#!/usr/bin/env ruby\n" "#!/usr/bin/env ruby" nil
                         ("general")
                         nil nil nil nil)
-                       ("red" "redirect_to ${named_root}\n" "redirect_to root_path" nil nil nil nil nil nil)
+                       ("red" "redirect_to ${named_root}" "redirect_to root_path" nil nil nil nil nil nil)
                        ("red.action" "redirect_to :action => :${index}\n" "redirect_to :action => :... " nil nil nil nil nil nil)
                        ("reject" "reject { |${1:element}| $0 }" "reject { |...| ... }" nil
                         ("collections")
@@ -195,4 +195,4 @@
                         nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Wed May  7 15:59:57 2014
+;;; Do not edit! File generated at Tue May 27 18:52:47 2014
