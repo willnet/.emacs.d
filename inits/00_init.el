@@ -13,6 +13,8 @@
 (setq make-backup-files nil)
 ;; .#* とかのバックアップファイルを作らない
 (setq auto-save-default nil)
+;; 保存時に行末の空白を消す
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Dropbox対策
 ;; http://d.hatena.ne.jp/naotoakiyama/20081124/1227538925
