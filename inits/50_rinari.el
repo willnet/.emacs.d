@@ -5,7 +5,7 @@
 ;; Rinari
 (require 'rinari)
 (global-rinari-mode)
-(setq rinari-major-modes '(haml-mode ruby-mode js-mode js2-mode))
+;; (setq rinari-major-modes '(haml-mode ruby-mode js-mode js2-mode))
 (setq rinari-exclude-major-modes '(magit-status-mode magit-log-edit-mode))
 
 (setq rinari-tags-file-name "TAGS")
