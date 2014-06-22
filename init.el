@@ -7,7 +7,10 @@
         (add-to-list 'load-path default-directory)
         (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
             (normal-top-level-add-subdirs-to-load-path))))))
-(add-to-load-path "elisp" "auto-install" "elpa")
+(add-to-load-path "elisp" "auto-install")
+
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
 
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/inits")
