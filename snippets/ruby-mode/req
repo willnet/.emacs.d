@@ -1,4 +1,5 @@
-#name : require "..."
+#name : require '...'
 #group : general
 # --
-require "$0"
+require '${library}'
+$0
