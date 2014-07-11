@@ -43,7 +43,7 @@
                         nil nil nil nil)
                        ("back" "background do\n$0\nend\n" "background do ... end" nil nil nil nil nil nil)
                        ("be" "begin\nrescue\n  $0\nend\n" "begin ... rescue ... end" nil nil nil nil nil nil)
-                       ("be" "before do\n  $0\nend\n" "before do ... end" nil nil nil nil nil nil)
+                       ("be" "before do\n  $0\nend" "before do ... end" nil nil nil nil nil nil)
                        ("be" "before { $0 }" "before { ... }" nil nil nil nil nil nil)
                        ("ba" "before_action :${method}\n" "before_action" nil nil nil nil nil nil)
                        ("bf" "before_filter :${method}\n" "before_filter : ... " nil nil nil nil nil nil)
@@ -139,7 +139,7 @@
                         ("collections")
                         nil nil nil nil)
                        ("rc" "remove_column :${table_name}, :${column_name}" "remove_column :blogs, :title" nil nil nil nil nil nil)
-                       ("req" "require \"$0\"" "require \"...\"" nil
+                       ("req" "require '${library}'\n$0" "require '...'" nil
                         ("general")
                         nil nil nil nil)
                        ("req.file" "require File.join(File.dirname(__FILE__), $0)\n" "require File.join(File.dirname(__FILE__), ...)" nil
@@ -195,4 +195,4 @@
                         nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Tue May 27 18:52:47 2014
+;;; Do not edit! File generated at Fri Jul 11 18:17:15 2014
