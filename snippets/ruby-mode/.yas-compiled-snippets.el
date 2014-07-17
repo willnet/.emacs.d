@@ -12,7 +12,6 @@
                         ("definitions")
                         nil nil nil nil)
                        ("fa" "Fabricate(:${name})\n" "Fabricate(:user)" nil nil nil nil nil nil)
-                       ("aa" "attr_accessible :${column}" "attr_accessible" nil nil nil nil nil nil)
                        ("aa" "attr_accessor :${instance_valiable}" "attr_accessor" nil nil nil nil nil nil)
                        ("ac" "accepts_nested_attributes_for :${association}\n" "accepts_nested_attributes_for" nil nil nil nil nil nil)
                        ("abd" "ActionMailer::Base.deliveries" "ActionMailer::Base.deliveries" nil nil nil nil nil nil)
@@ -28,7 +27,6 @@
                        ("any" "any? { |${e}| $0 }" "any? { |...| ... }" nil
                         ("collections")
                         nil nil nil nil)
-                       ("ap" "attr_protected :${column}" "attr_protected" nil nil nil nil nil nil)
                        ("app" "if __FILE__ == $PROGRAM_NAME\n  $0\nend" "if __FILE__ == $PROGRAM_NAME ... end" nil
                         ("general")
                         nil nil nil nil)
@@ -195,4 +193,4 @@
                         nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Fri Jul 11 18:17:15 2014
+;;; Do not edit! File generated at Thu Jul 17 10:18:09 2014
