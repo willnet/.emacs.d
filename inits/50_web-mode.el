@@ -1,8 +1,10 @@
 (require 'web-mode)
 
 ;;; 適用する拡張子
-(add-to-list 'auto-mode-alist '("\\.erb$"       . web-mode))
-(add-to-list 'auto-mode-alist '("\\.html?$"     . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.erb$"       . web-mode))
+;; (add-to-list 'auto-mode-alist '("\\.html?$"     . web-mode))
+
+(add-to-list 'auto-mode-alist '("\\.hbs$"       . web-mode))
 
 ;; なぜかC-;にC-c C-;と同じ機能が割り当てられてるので削除する
 (define-key web-mode-map (kbd "C-;") nil)
