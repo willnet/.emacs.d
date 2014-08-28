@@ -72,3 +72,4 @@
 (depends-on "yaml-mode")
 (depends-on "yasnippet")
 (depends-on "git-gutter")
+(depends-on "helm-ag")
