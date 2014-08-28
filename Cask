@@ -71,3 +71,4 @@
 (depends-on "wgrep-helm")
 (depends-on "yaml-mode")
 (depends-on "yasnippet")
+(depends-on "git-gutter")
