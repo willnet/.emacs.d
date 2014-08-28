@@ -73,3 +73,5 @@
 (depends-on "yasnippet")
 (depends-on "git-gutter")
 (depends-on "helm-ag")
+(depends-on "direx")
+(depends-on "popwin")
