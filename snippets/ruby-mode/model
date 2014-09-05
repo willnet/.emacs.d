@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: model
+# key: model
+# binding: direct-keybinding
+# --
+include ActiveModel::Model

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: validates
+# key: v
+# binding: direct-keybinding
+# --
+validates :${column}
