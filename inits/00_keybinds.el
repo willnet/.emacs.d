@@ -43,3 +43,11 @@
 
 ;; transpose-words のキーバインドを削除
 (global-unset-key (kbd "M-t"))
+
+;; OS 標準に寄せる
+(global-set-key (kbd "M-x") 'kill-region)
+(global-set-key (kbd "M-v") 'yank)
+(global-set-key (kbd "M-c") 'kill-ring-save)
+
+(global-set-key (kbd "M-n") 'scroll-up-command)
+(global-set-key (kbd "M-p") 'scroll-down-command)
