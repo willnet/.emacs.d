@@ -57,7 +57,7 @@
   (set-fontset-font nil '(#x0370 . #x03FF) fontspec))
 
 ;; solarized is now broken...
-;; (load-theme 'solarized-dark t)
+(load-theme 'solarized-dark t)
 
 
 (custom-set-faces
