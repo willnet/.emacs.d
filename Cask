@@ -74,3 +74,4 @@
 (depends-on "helm-ag")
 (depends-on "direx")
 (depends-on "popwin")
+(depends-on "elscreen")
