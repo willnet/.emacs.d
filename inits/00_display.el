@@ -28,7 +28,6 @@
 
 ;; 行番号を表示
 (global-linum-mode)
-(setq linum-format "%4d ") ; 5 桁分の領域を確保して行番号のあとにスペースを入れる
 
 ;; ステータス行の行番号を削除
 (line-number-mode nil)
