@@ -1,2 +1,2 @@
-(global-git-gutter-mode +1)
-(git-gutter:linum-setup)
+(require 'git-gutter-fringe)
+(global-git-gutter-mode t)

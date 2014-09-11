@@ -70,7 +70,7 @@
 (depends-on "wgrep-helm")
 (depends-on "yaml-mode")
 (depends-on "yasnippet")
-(depends-on "git-gutter")
+(depends-on "git-gutter-fringe")
 (depends-on "helm-ag")
 (depends-on "direx")
 (depends-on "popwin")
