@@ -126,6 +126,7 @@
                        ("mm" "def method_missing(method, *args)\n  $0\nend" "def method_missing ... end" nil
                         ("definitions")
                         nil nil nil nil)
+                       ("model" "include ActiveModel::Model" "model" nil nil nil nil "direct-keybinding" nil)
                        ("par" "params[:${id}]$0" "params[: ... ]" nil nil nil nil nil nil)
                        ("ra" "render :action => :${action}\n" "render :action => \" ... \"" nil nil nil nil nil nil)
                        ("rb" "#!/usr/bin/env ruby\n" "#!/usr/bin/env ruby" nil
@@ -171,6 +172,7 @@
                         ("control structure")
                         nil nil nil nil)
                        ("va" "validates_associated :${attr}\n" "validates_associated : ... " nil nil nil nil nil nil)
+                       ("v" "validates :${column}" "validates" nil nil nil nil "direct-keybinding" nil)
                        ("vc" "validates_confirmation_of :${attr}\n" "validates_confirmation_of : ... " nil nil nil nil nil nil)
                        ("ve" "validates_exclusion_of :${attr}\n" "validates_exclusion_of : ... " nil nil nil nil nil nil)
                        ("vf" "validates_format_of :${attr}, :with => /${regex}/\n" "validates_format_of : ... , :with => / ... /" nil nil nil nil nil nil)
@@ -193,4 +195,4 @@
                         nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Thu Jul 17 10:18:09 2014
+;;; Do not edit! File generated at Thu Sep 11 23:08:02 2014
