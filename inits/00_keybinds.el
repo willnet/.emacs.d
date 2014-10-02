@@ -19,9 +19,6 @@
 ;; C-x oの逆をC-x pに割り当てる
 (global-set-key (kbd "C-x p") (lambda () (interactive) (other-window -1)))
 
-;; rgrep
-(define-key global-map (kbd "C-<") 'rgrep)
-
 ;; 別ウィンドウでDired
 (define-key global-map (kbd "C-x C-d") 'dired-jump-other-window)
 

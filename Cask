@@ -75,3 +75,4 @@
 (depends-on "direx")
 (depends-on "popwin")
 (depends-on "elscreen")
+(depends-on "multiple-cursors")
