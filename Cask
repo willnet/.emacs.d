@@ -76,3 +76,4 @@
 (depends-on "popwin")
 (depends-on "elscreen")
 (depends-on "multiple-cursors")
+(depends-on "dash-at-point")
