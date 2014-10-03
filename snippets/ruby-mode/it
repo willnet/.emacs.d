@@ -1,5 +1,4 @@
-#name : it do ... end
+# key: it
+# name: it { is_expected.to }
 # --
-it '${str}' do
-  $0
-end
+it { is_expected.to $0 }

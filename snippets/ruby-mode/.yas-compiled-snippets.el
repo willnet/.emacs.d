@@ -115,8 +115,7 @@
                        ("inject" "inject(${1:0}) { |${2:injection}, ${3:element}| $0 }" "inject(...) { |...| ... }" nil
                         ("collections")
                         nil nil nil nil)
-                       ("it" "it '${str}' do\n  $0\nend" "it do ... end" nil nil nil nil nil nil)
-                       ("it" "it { $0 }" "it {}" nil nil nil nil nil nil)
+                       ("it" "it { is_expected.to $0 }" "it { is_expected.to }" nil nil nil nil nil nil)
                        ("it" "it_should_behave_like \"${shared}\"" "it_should_behave_like" nil nil nil nil nil nil)
                        ("ld" "logger.debug ${log object}\n$0\n" "logger.debug " nil nil nil nil nil nil)
                        ("le" "logger.error ${log object}\n$0\n" "logger.error" nil nil nil nil nil nil)
@@ -195,4 +194,4 @@
                         nil nil nil nil)))
 
 
-;;; Do not edit! File generated at Thu Sep 11 23:08:02 2014
+;;; Do not edit! File generated at Thu Oct  2 22:21:52 2014
