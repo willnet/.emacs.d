@@ -9,7 +9,7 @@
 
 ;; ウィンドウを移る
 (global-set-key (kbd "C-o") 'other-window-or-split)
-
+(global-set-key (kbd "C-M-o") (lambda () (interactive) (other-window -1)))
 
 (winner-mode 1)
 (defun winner-dwim (arg)
