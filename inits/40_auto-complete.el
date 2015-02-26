@@ -7,8 +7,8 @@
 
 (setq ac-dwim t)
 
-(setq ac-auto-start nil) ; 自動的に開始しない
-(define-key ac-mode-map (kbd "M-i") 'auto-complete)
+(setq ac-auto-start 3)
+;; (define-key ac-mode-map (kbd "M-i") 'auto-complete)
 ;;(ac-set-trigger-key "\M-i") ; コンテキストに応じて補完
 ;;(global-set-key "\M-/" 'ac-start)
 
