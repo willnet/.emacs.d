@@ -16,4 +16,8 @@
 (define-key ac-menu-map "\C-n" 'ac-next)
 (define-key ac-menu-map "\C-p" 'ac-previous)
 
+(add-hook 'ruby-mode-hook
+          (lambda ()
+            (make-local-variable 'ac-ignore-case)
+            (setq ac-ignore-case nil)))
 (require 'auto-complete-etags)
