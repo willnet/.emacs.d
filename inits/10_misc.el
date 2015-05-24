@@ -23,3 +23,5 @@
 (global-set-key (kbd "C-q") 'winner-dwim)
 ;; 元のC-qを別なキーに退避させる
 (global-set-key (kbd "C-c q") 'quoted-insert)
+;; 変更があった時に自動で読み込み直す
+(global-auto-revert-mode 1)
