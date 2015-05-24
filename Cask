@@ -77,3 +77,4 @@
 (depends-on "elscreen")
 (depends-on "multiple-cursors")
 (depends-on "dash-at-point")
+(depends-on "flycheck")
