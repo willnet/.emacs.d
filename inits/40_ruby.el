@@ -109,3 +109,6 @@
 
 ;; http://koansys.com/tech/emacs-hangs-on-flymake-under-os-x
 (setq flymake-gui-warnings-enabled nil)
+
+;; stop auto input magic comment
+(defun ruby-mode-set-encoding () nil)
